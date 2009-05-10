@@ -17,6 +17,7 @@ module Rack
   autoload :LighttpdScriptNameFix,      "rack/contrib/lighttpd_script_name_fix"
   autoload :Locale,                     "rack/contrib/locale"
   autoload :MailExceptions,             "rack/contrib/mailexceptions"
+  autoload :MiddlewareInjector,         "rack/contrib/middleware_injector"
   autoload :PostBodyContentTypeParser,  "rack/contrib/post_body_content_type_parser"
   autoload :ProcTitle,                  "rack/contrib/proctitle"
   autoload :Profiler,                   "rack/contrib/profiler"
